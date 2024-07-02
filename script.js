@@ -108,3 +108,24 @@ false|| false ->  false
 ex : var a = 5
 var b = 8
  a<= b || b / 2 == 2 // 8 /2 fica 4 então essa opção é (false) a<=b (true) respota final true pois um dos operadores é verdadeiro
+
+
+ //RESUMÂO DA PRESEDENCIA  
+ // sempre vamos resolver dessa forma as operações
+
+//() ** /
+// > < >=
+//!
+//&&
+//||
+
+
+//OPERADOR TERNARIO ? : ele é divido em tres blocos
+// teste ? true : false
+
+// teste logico ? resultado foi esperado :se o resultado não foi esperado
+ex : 
+var media = 5.5
+
+media > 7 ? 'aprovado' : 'reprovado'
+resultado reprovado
