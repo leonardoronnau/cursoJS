@@ -9,9 +9,10 @@ var s1 = `leonardo`
 var n1 = 10
 var n2 = 10.5
 
+
 //boolean
-var b = true
-var b = false
+var c = true
+var c = false
 
 
 //typeof ele serve para indentificar o que ele está recebendo EX : typeof s1 ele vai falar que é uma string
@@ -129,3 +130,5 @@ var media = 5.5
 
 media > 7 ? 'aprovado' : 'reprovado'
 resultado reprovado
+
+
