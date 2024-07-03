@@ -132,3 +132,12 @@ media > 7 ? 'aprovado' : 'reprovado'
 resultado reprovado
 
 
+
+// o DOM ELE SERVE PARA REALIZAR A INTERAÇÂO DO JS JUNTO COM  O NAVEGADOR 
+//documento object model
+
+// tipos de tag para  selecionar elementos:
+getElementsbyTagName
+getElementbyId 
+getElementsbyTagName
+getElementsbyclassName 
