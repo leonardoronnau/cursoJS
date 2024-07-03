@@ -141,3 +141,14 @@ getElementsbyTagName
 getElementbyId 
 getElementsbyTagName
 getElementsbyclassName 
+querySelector
+querySelectorAll
+
+// tipos de eventos no DOM podem ser consultados em MDN event reference
+
+
+
+
+//função todas elas são realizadas por blocos finalizas e iniciadas em {}]
+
+// atributos colocados dentro de uma função não é possivel reatirar eles para fora.
