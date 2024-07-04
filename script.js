@@ -169,4 +169,5 @@ if(condição) {
 
 }
 
+
 console.log('esta tudo certo');
