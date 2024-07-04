@@ -149,6 +149,24 @@ querySelectorAll
 
 
 
-//função todas elas são realizadas por blocos finalizas e iniciadas em {}]
+//função todas elas são realizadas por blocos finalizas e iniciadas em {}
 
 // atributos colocados dentro de uma função não é possivel reatirar eles para fora.
+
+
+//condições 
+//existe 2 tipos de condições quando é utilizado somente uma condição
+
+//EX : com 1 codição 
+if (condição) {
+
+}
+
+//EX : com 2 codição
+if(condição) {
+
+}else {
+
+}
+
+console.log('esta tudo certo');
