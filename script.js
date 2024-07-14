@@ -1,3 +1,4 @@
+
 // sempre que receber o sinal de = vamos ser RECEBE
 
 // formas de delimitar as sting
@@ -157,17 +158,81 @@ querySelectorAll
 //condições 
 //existe 2 tipos de condições quando é utilizado somente uma condição
 
-//EX : com 1 codição 
+//EX : com 1 codição simples        
 if (condição) {
 
 }
 
-//EX : com 2 codição
+//EX : com 2 codição composta
 if(condição) {
 
 }else {
 
 }
 
+//EX : com 3 codição aninhadas
+if(condição) {
 
-console.log('esta tudo certo');
+}else  if(condição) {
+
+}else {
+    // se a primeira condição não for verdadeira ele vai procurar a segunda condição e assim por diante
+}
+ex: 
+var agora = new Date()
+var hora = agora.getHours()
+console.log(`agora não exetamente ${hora} horas`);
+if (hora < 12) {
+    console.log('bom dia');
+}else if(hora <= 18) {
+    console.log('boa tarde');
+}else {
+    console.log('boa noite');
+}
+
+// condicional multipla você pode fazer uma opção diferente para condição
+EX: switch() {
+    case 1:
+    break;
+    case 2:
+    break;
+    case 3:
+    break;
+    default:
+    break;
+}
+
+//em cada case é importante o valor, lembrando que o break é obrigatorio sempre é utilizado em valores pontuaias.
+
+// while é uma estrutura de repetição para realizar loop dentro de uma função
+// while  lemos como se fosse enquanto - lembrando que a função somente vai ser repetida enquando a função for verdadeira
+ ex:
+
+ var c = 1 
+
+ while(c < 10) {
+    console.log(`bora para mais ${c}`);
+    c++;
+ }
+
+ // temos tambem como fazer a dessa forma
+
+ var c = 1;
+
+ do {
+    console.log(`bora para mais ${c}`)
+    c++
+ }while (c < 6)
+
+
+    // estrutura de repetição FOOR
+    // ele repete um bloco de código enquanto uma condição for verdadeira
+    // for(inicio; teste ; incremento) { lemmbrando que precisa ser verdadeira
+    // bloco de código
+    // }
+
+    EX :
+
+    for(var c= 1; c<=5; c++){
+        console.log(`bora conta mais  ${c}`)
+    }
